@@ -72,3 +72,26 @@ if(age == 18) {
 } else {
     console.log("you are not allowed for DL")
 }
+
+
+
+
+
+
+
+var array = [1, 2, 4, 56, 7, 8, 3, 2, 5, 7];
+var target = 12
+
+function FindTargetedValues(array, target) {
+    for (var i = 0; i <= array.length - 2; i++) {
+        for (var j = 1; j <= array.length - 1; i++) {
+            if(array[i] + array[j] == target) {
+                console.log(array[i], array[j])
+            }
+        }
+    }
+        // wrrite your answer
+}
+
+
+FindTargetedValues(array, target)

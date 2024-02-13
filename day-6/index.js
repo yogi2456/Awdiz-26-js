@@ -143,41 +143,22 @@
 var array = [1, 2, 4, 56, 7, 8, 3, 2, 5, 7];
 var target = 12
 
-// ans : 
-// 4 8
-// 5 7
-
 function FindTargetedValues(array, target) {
-    for (var i = 0; i < array.length - 1; i++) {
-        // if (array[i] + array[i + 1] == target) {
-        //     console.log(array[i], array[i + 1])
-        // }
-        // wrrite your answer
+    for (var i = 0; i <= array.length - 2; i++) {
+        for (var j = 1; j <= array.length - 1; i++) {
+            if(array[i] + array[j] == target) {
+                console.log(array[i], array[j])
+            }
+        }
     }
+        // wrrite your answer
 }
+
+
 FindTargetedValues(array, target)
 
 
 
-<div class="home4">
-<div class="home5">
-    <div class="home6">
-        <img style="width: 100%; height: 100%;" src=""/>
-    </div>
-    <div class="home6">
-        <img style="width: 100%; height: 100%;" src=""/>
-    </div>
-    <div class="home6">
-        <img style="width: 100%; height: 100%;" src=""/>
-    </div>
-    <div class="home6">
-        <img style="width: 100%; height: 100%;" src=""/>
-    </div>
-    <div class="home6">
-        <img style="width: 100%; height: 100%;" src=""/>
-    </div>
-    <div class="home6">
-        <img style="width: 100%; height: 100%;" src=""/>
-    </div>
-</div>
-</div>
+console.log(hgsdggygegf)
+
+

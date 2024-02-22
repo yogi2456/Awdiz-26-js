@@ -106,6 +106,121 @@
             margin-top: 8px;
             margin-right: 10px;
         }
+        .register {
+            width: 100%;
+        }
+        .register1 {
+            width: 30%;
+            margin: auto;
+            height: 900px;
+            border: 1px solid black;
+            margin-top: 30px;
+        }
+        .register2 {
+            width: 90%;
+            margin: auto;
+        }
+        .login-right {
+            width: 100%;
+            height: 600px;
+            /* border: 1px solid black; */
+        }
+        .login-right > img {
+            /* width: 20%; */
+            /* height: 500px; */
+            margin-top: -80px;
+            /* border: 1px solid black; */
+        }
+        .login-right > h1 {
+            margin-top: -55px;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .login-right > p {
+            margin-top: 15px;
+            font-size: 16px;
+            color: rgb(45, 44, 44);
+        }
+        .login-right > h2 {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .login-right1 {
+            display: flex;
+        }
+        .login-right1 > div {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .login-right1 > div > i {
+            font-size: 24px;
+            padding: 12px;
+        }
+        input {
+            width: 92%;
+            height: 50px;
+            margin-top: 15px;
+            color: gray;
+            font-weight: bold;
+            padding-left: 8px;
+            font-size: 18px;
+        }
+        .login-right2 {
+            margin-top: 10px;
+            display: flex;
+        }
+        .login-right2 > input {
+            width: 40px;
+            height: 40px;
+        }
+        .login-right2 > p {
+            margin-left: 10px;
+            margin-top: 18px;
+        }
+        .login-right3 {
+            text-decoration-line: underline;
+            margin-left: 35px;
+            margin-top: 3px;
+            font-size: 18px;
+        }
+        .login-right4 {
+            margin-top: 10px;
+            display: flex;
+        }
+        .login-right4 > input {
+            width: 30px;
+            height: 28px;
+            background-color: white;
+            border: 1px solid gray;
+            border-radius: 2px;
+        }
+        .login-right4 > p {
+            margin-left: 10px;
+            margin-top: 18px;
+        }
+        .login-right > button {
+            width: 180px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            display: flex;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .login-right > button > p {
+            margin-left: 30px;
+            margin-top: 17px;
+        }
+        .login-right > button > i {
+            margin-left: 20px;
+            margin-top: 17px;
+        }
     </style>
 </head>
 <body>
@@ -150,6 +265,52 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="register">
+        <div class="register1">
+            <div class="register2">
+            <div class="login-right">
+                <img style="width: 35%; height: 50%;" src="https://account-frontends.adidas.com/account_account-portal/1.0.0-experimental.14/assets/adiclub-blue-desktop.e34c412f9253e8d5.svg"/>
+                <h1>YOUR ADICLUB<br/> BENEFITS AWAIT</h1>
+                <p>Get free shipping, discount vouchers and members only products when you’re in adiClub.</p>
+                <h2>Log in or sign up (it’s free)</h2>
+                <div class="login-right1">
+                    <div>
+                        <i class="fa-brands fa-apple" style="color: #05090f;"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-facebook" style="color: #2470f5;"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-google" style="color: #0a0a0b;"></i>
+                    </div>
+                </div>
+                <input placeholder="EMAIL ADDRESS *"/> <br/>
+                <input placeholder="PASSWORD *"/> <br/>
+                <div class="login-right2">
+                    <input type="checkbox"/>
+                    <p>
+                        I would like to stay up to date with adidas. I agree to receive personalised marketing messages from adidas India Marketing Pvt. Ltd.</p>
+                </div>
+                <div class="login-right3">Read more</div>
+                <div class="login-right2">
+                    <input type="checkbox"/>
+                    <p>I have read and accepted the Terms & Conditions, the adiClub Terms & Conditions and the adidas Privacy Policy.</p>
+                </div>
+                <div class="login-right4">
+                    <input type="button"/>
+                    <p>
+                        Keep me logged in. Applies to all options.</p>
+                </div>
+                <div class="login-right3">More info</div>
+                <button>
+                    <p>CONTINUE</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </div>
         </div>
     </div>
 </body>

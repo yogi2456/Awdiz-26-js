@@ -54,6 +54,10 @@
                     return alert("Email alrady exist, try another one.")
                 }
                 if (isUserListExist?.length) {
+                //     const emailExist = checkIsEmailExist(isUserListExist, email)
+                // if (emailExist) {
+                //     return alert("Email alrady exist, try another one.")
+                // }
                     isUserListExist.push(userData)
                     localStorage.setItem("users", JSON.stringify(isUserListExist))
                 } else {

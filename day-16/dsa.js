@@ -24,3 +24,63 @@ function findStringCount() {
 }
 
 findStringCount(string)
+
+
+const people = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 22 },
+    { name: "David", age: 28 },
+  ];
+  
+  const Averagecalc = function (people) {
+    let total = 0;
+    for (const { age } of people) {
+      total += age;
+    }
+    return total / people.length;
+  };
+  
+  console.log(Averagecalc(people));
+
+
+//   const names = ["Alice", "Bob", "Anna", "Alex", "Charlie", "Amanda"];
+
+// const countNames = function (names, letter = "A") {
+//   let total = 0;
+//   for (const name of names) {
+//     if (name.toUpperCase()[0] === letter) {
+//       total += 1;
+//     }
+//   }
+
+//   return total;
+// };
+
+// console.log(countNames(names));
+
+const numbers = [10, -2, 8, 15, -5, 20, 3];
+
+const findMaxSumPair = function (numbers) {
+  if (numbers.length < 2) {
+    return "Array should contain at least two numbers";
+  }
+
+  return numbers.sort((a, b) => a - b).slice(-2);
+};
+
+console.log(findMaxSumPair(numbers));
+
+
+// const names = ["Alice", "Bob", "Anna", "Alex", "Charlie", "Amanda"];
+
+// const countNames = function (names) {
+// let count=0;
+// for(i=0;i<names.length;i++){
+//     if(names[i][0]==="A"){
+//         count++;
+//     }
+// }
+// };
+
+// console.log(countNames(names));
